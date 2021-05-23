@@ -54,7 +54,6 @@ while($row = mysqli_fetch_array($result)) {
 <button onclick="window.location.href='map.php';" type="button">MAP</button>
 <?php 
 if ($_SESSION['type'] == "administrator"){
-	echo "<p> admin confirmed</p>";
 	echo "<form  method = \"post\">";
 			echo "<label> Nume </label>";
 			echo "<input type = \"text\" name = \"Nume\"> </br>";
@@ -81,7 +80,7 @@ if ($_SESSION['type'] == "administrator"){
 }
 else
 {
-	echo "<p> normal user</p>";
+
 }
 ?>
 </body>
