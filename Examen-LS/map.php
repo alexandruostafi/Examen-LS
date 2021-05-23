@@ -47,6 +47,7 @@
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByKEo-eVV5YXXbbpGUsL7_Leuxb8c543U&callback=initMap">
     </script>
+    <button onclick="window.location.href='home.php'">Home</button>
 </body>
 
 </html>
