@@ -39,23 +39,25 @@
 					else {
 						
 				}
+                }
 				echo 'Wrong username or password';
                }
-            }
+            
          ?>
-      </div>
+      
       
       <div>
       
          <form  method = "post">
-			<label> User </label>
-            <input type = "text" name = "username"> </br>
-			<label> Parola </label>
+             <label> Username </label><br>
+            <input type = "text" name = "username"><br>
+			<label> Password </label><br>
             <input type = "password" name = "password" required> <br>
             <button type = "submit" name = "login">Login</button>
-         </form>
+          </form>
+       </div>
          
-      </div> 
+       
       
    </body>
 </html>
