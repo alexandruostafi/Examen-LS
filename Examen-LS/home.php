@@ -55,13 +55,13 @@ while($row = mysqli_fetch_array($result)) {
 <?php 
 if ($_SESSION['type'] == "administrator"){
 	echo "<form  method = \"post\">";
-			echo "<label> Nume </label>";
-			echo "<input type = \"text\" name = \"Nume\"> </br>";
-			echo "<label> Latitudine </label>";
+			echo "<label> Nume </label><br>";
+			echo "<input type = \"text\" name = \"Nume\"> <br>";
+			echo "<label> Latitudine </label><br>";
 			echo "<input type = \"text\" name = \"Latitudine\" required> <br>";
-			echo "<label> Longitudine </label>";
+			echo "<label> Longitudine </label><br>";
 			echo "<input type = \"text\" name = \"Longitudine\" required> <br>";
-			echo "<label> Culoare </label>";
+			echo "<label> Culoare </label><br>";
 			echo "<input type = \"text\" name = \"Culoare\" required> <br>";
 			echo "<input type = \"submit\" name = \"Submit\">";
     echo "</form>";
